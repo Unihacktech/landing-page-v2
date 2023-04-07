@@ -2,6 +2,7 @@ import React from "react";
 import { Box, Grid, Typography } from "@mui/material";
 import rocket from "../images/rocket.svg";
 import { tokens } from "../theme";
+import { motion } from "framer-motion";
 
 const AboutUsCondenced = () => {
   const colors = tokens();
@@ -9,10 +10,15 @@ const AboutUsCondenced = () => {
     <span style={{ color: "#ffdf00" }}> {text} </span>
   );
   return (
-    <Box m="50px" height={{ xs: "inherit", md: "50vh" }}>
+    <Box m="20px" height={{ xs: "inherit", md: "50vh" }}>
       <Grid container spacing="2">
         <Grid item xs="12" md={7}>
-          <Box>
+          <Box
+            component={motion.div}
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            transition={{ ease: "easeOut", duration: 1.5 }}
+          >
             <Typography
               variant="h3"
               fontFamily="Space Mono"
@@ -54,8 +60,11 @@ const AboutUsCondenced = () => {
           <Box
             component="img"
             alt="team"
-            width={{ xs: "200px", md: "500px" }}
+            width={{ xs: "200px", md: "400px" }}
             src={rocket}
+            // initial={{ opacity: 0, y: 100 }}
+            // whileInView={{ opacity: 1, y: -500 }}
+            // transition={{ ease: "easeOut", duration: 1.5, delay: 1 }}
           />
         </Grid>
       </Grid>

@@ -1,6 +1,7 @@
 import React from "react";
 import { Box, Typography } from "@mui/material";
 import { tokens } from "../theme";
+import { motion } from "framer-motion";
 
 const Hackathon = () => {
   const colors = tokens();
@@ -8,8 +9,14 @@ const Hackathon = () => {
     <span style={{ color: "#ffdf00" }}> {text} </span>
   );
   return (
-    <Box m="250px 50px">
-      <Box width={{ md: "60%" }}>
+    <Box m="400px 20px">
+      <Box
+        width={{ md: "60%" }}
+        component={motion.div}
+        initial={{ opacity: 0 }}
+        whileInView={{ opacity: 1 }}
+        transition={{ ease: "easeOut", duration: 1.5 }}
+      >
         <Typography
           variant="h3"
           fontFamily="Space Mono"

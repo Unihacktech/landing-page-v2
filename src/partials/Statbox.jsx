@@ -10,7 +10,7 @@ const Statbox = ({ stat, statTitile, includePlus = true }) => {
         <Typography
           variant="h2"
           fontFamily="Archivo Black"
-          fontSize={{ xs: "80px", md: "200px" }}
+          fontSize={{ xs: "90px", md: "150px" }}
           display="inline"
           color={colors.primary[200]}
         >

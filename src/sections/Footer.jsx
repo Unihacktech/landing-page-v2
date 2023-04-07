@@ -12,7 +12,11 @@ import { Link } from "react-router-dom";
 const Footer = () => {
   const colors = tokens();
   return (
-    <Box m="250px 50px" display="flex" justifyContent="center">
+    <Box
+      m={{ xs: "150px 20px", md: "250px 50px" }}
+      display="flex"
+      justifyContent="center"
+    >
       <Box width={{ md: "75%" }}>
         <Grid container spacing={2}>
           <Grid item xs="12" md="6">

@@ -6,7 +6,7 @@ import { tokens } from "../theme";
 const Timetable = () => {
   const colors = tokens();
   return (
-    <Box m="150px 50px">
+    <Box m="150px 20px">
       <Typography
         variant="h3"
         fontFamily="Space Mono"

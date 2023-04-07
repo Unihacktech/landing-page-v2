@@ -7,13 +7,13 @@ import rocket from "../images/rocket.svg";
 const Hero = () => {
   const colors = tokens();
   return (
-    <Box height="100vh">
+    <Box height={{ lg: "100vh" }}>
       {/* Header */}
       <Header />
       {/* Hero Content */}
       <Box
-        m="50px"
-        padding={{ xs: "20px 0", md: "100px 0" }}
+        m={{ xs: "20px", md: "50px" }}
+        padding={{ xs: "20px 0 200px 0", md: "100px 0 200px 0" }}
         justifyContent="left"
         alignContent="left"
       >

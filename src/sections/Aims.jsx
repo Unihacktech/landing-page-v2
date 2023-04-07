@@ -4,8 +4,23 @@ import AimsCard from "../partials/AimsCard";
 import investigate from "../images/investigate.svg";
 import connect from "../images/connect.svg";
 import build from "../images/build.svg";
+import { motion } from "framer-motion";
 
 const Aims = () => {
+  const container = {
+    hidden: { rotate: 90 },
+    show: {
+      rotate: 0,
+      transition: {
+        staggerChildren: 0.5,
+        delayChildren: 0.7,
+      },
+    },
+  };
+  const item = {
+    hidden: { scale: 0 },
+    show: { scale: 1 },
+  };
   return (
     <Box
       m="150px 50px"
