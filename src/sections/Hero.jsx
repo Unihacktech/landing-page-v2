@@ -1,9 +1,7 @@
 import React from "react";
 import { Box, Typography } from "@mui/material";
-import backgroundImage from "../images/heroBackground.svg";
 import Header from "../partials/Header";
 import { tokens } from "../theme";
-import rocket from "../images/rocket.svg";
 const Hero = () => {
   const colors = tokens();
   return (

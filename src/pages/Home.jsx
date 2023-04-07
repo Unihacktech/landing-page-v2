@@ -11,7 +11,6 @@ import { Link, Typography } from "@mui/material";
 import proposal from "../docs/proposal.pdf";
 import { tokens } from "../theme";
 import Footer from "../sections/Footer";
-import { useScroll, motion, useMotionValueEvent } from "framer-motion";
 
 const Home = () => {
   const colors = tokens();

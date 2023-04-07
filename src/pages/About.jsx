@@ -3,7 +3,6 @@ import React from "react";
 import Header from "../partials/Header";
 import backgroundImage from "../images/heroBackground.svg";
 import abdullah from "../images/abdullah.JPG";
-import { Stack } from "@mui/system";
 import { tokens } from "../theme";
 
 const About = () => {

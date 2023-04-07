@@ -1,6 +1,5 @@
 import { Box, Grid, Link, Typography } from "@mui/material";
 import React from "react";
-import abdullah from "../images/abdullah.JPG";
 import { tokens } from "../theme";
 
 const Organiser = ({ img, name, linkedIn }) => {
