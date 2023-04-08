@@ -10,7 +10,7 @@ const AboutUsCondenced = () => {
     <span style={{ color: "#ffdf00" }}> {text} </span>
   );
   return (
-    <Box m="20px" height={{ xs: "inherit", md: "50vh" }}>
+    <Box m="150px 20px" height={{ xs: "inherit", md: "50vh" }}>
       <Grid container spacing="2">
         <Grid item xs="12" md={7}>
           <Box

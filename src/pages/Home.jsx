@@ -17,7 +17,7 @@ const Home = () => {
 
   return (
     <>
-      <Box style={{ backgroundImage: `url(${backgroundImage})` }}>
+      <Box>
         {/* header */}
         <Hero />
         {/* About unihack */}

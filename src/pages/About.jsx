@@ -15,23 +15,23 @@ const About = () => {
   };
   const colors = tokens();
   return (
-    <Box style={{ backgroundImage: `url(${backgroundImage})` }}>
+    <Box>
       <Header includeContactUs={false} />
-      <Box m="50px" height="100vh">
-        <Box width="60%">
+      <Box m={{ xs: "20px", md: "50px" }}>
+        <Box width={{ md: "60%" }}>
           <Typography
             variant="h2"
             color={colors.primary[500]}
             fontFamily="Space Mono"
             fontWeight="bold"
-            fontSize="40px"
+            fontSize={{ xs: "25px", md: "40px" }}
           >
             Contact Us
           </Typography>
 
           <Typography
             fontFamily="Rubik"
-            fontSize="25px"
+            fontSize={{ xs: "18px", md: "25px" }}
             color={colors.whiteAccent[200]}
             m="20px 0"
           >
@@ -43,7 +43,7 @@ const About = () => {
           </Typography>
           <Typography
             fontFamily="Rubik"
-            fontSize="25px"
+            fontSize={{ xs: "18px", md: "25px" }}
             color={colors.whiteAccent[200]}
             m="20px 0"
           >
@@ -64,11 +64,11 @@ const About = () => {
             <img
               alt="founder"
               src={abdullah}
-              width="150px"
+              width={"150px"}
               style={{ boxShadow: 3, borderRadius: "50%" }}
             />
           </Box>
-          <Box textAlign="center">
+          <Box textAlign="center" paddingBottom="50px">
             <Typography
               variant="h2"
               fontSize="20px"
