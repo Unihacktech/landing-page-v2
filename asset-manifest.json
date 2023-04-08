@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/landing-page-v2/static/css/main.60cc19d7.css",
-    "main.js": "/landing-page-v2/static/js/main.5dbdb5d3.js",
-    "static/media/investigate.svg": "/landing-page-v2/static/media/investigate.8d214a0c677bd507e4f96b7a8fb165e6.svg",
-    "static/media/build.svg": "/landing-page-v2/static/media/build.190f357fd600dcb61cc7baf6eba0aaf4.svg",
-    "static/media/rocket.svg": "/landing-page-v2/static/media/rocket.4c0f5ddb41a59f17d1083eab7d0cd029.svg",
-    "static/media/connect.svg": "/landing-page-v2/static/media/connect.ec54d38fe1552fad9eee9b7b5ad8b925.svg",
-    "static/media/proposal.pdf": "/landing-page-v2/static/media/proposal.013516f246b853c1a852.pdf",
-    "static/media/abdullah.JPG": "/landing-page-v2/static/media/abdullah.1dcb33250328786c94d0.JPG",
-    "static/media/habeeb.JPG": "/landing-page-v2/static/media/habeeb.aa3379d62e81096b6765.JPG",
-    "static/media/yomi.JPG": "/landing-page-v2/static/media/yomi.def93508ad256da0187c.JPG",
-    "static/media/logo.png": "/landing-page-v2/static/media/logo.416c713543aaf039ce2c.png",
-    "static/media/heroBackground.svg": "/landing-page-v2/static/media/heroBackground.a933005e9038e0de48eeffb68f4fa1e4.svg",
-    "index.html": "/landing-page-v2/index.html",
-    "main.60cc19d7.css.map": "/landing-page-v2/static/css/main.60cc19d7.css.map",
-    "main.5dbdb5d3.js.map": "/landing-page-v2/static/js/main.5dbdb5d3.js.map"
+    "main.css": "/static/css/main.60cc19d7.css",
+    "main.js": "/static/js/main.e00c9502.js",
+    "static/media/investigate.svg": "/static/media/investigate.8d214a0c677bd507e4f96b7a8fb165e6.svg",
+    "static/media/build.svg": "/static/media/build.190f357fd600dcb61cc7baf6eba0aaf4.svg",
+    "static/media/rocket.svg": "/static/media/rocket.4c0f5ddb41a59f17d1083eab7d0cd029.svg",
+    "static/media/connect.svg": "/static/media/connect.ec54d38fe1552fad9eee9b7b5ad8b925.svg",
+    "static/media/proposal.pdf": "/static/media/proposal.013516f246b853c1a852.pdf",
+    "static/media/abdullah.JPG": "/static/media/abdullah.1dcb33250328786c94d0.JPG",
+    "static/media/habeeb.JPG": "/static/media/habeeb.aa3379d62e81096b6765.JPG",
+    "static/media/yomi.JPG": "/static/media/yomi.def93508ad256da0187c.JPG",
+    "static/media/logo.png": "/static/media/logo.416c713543aaf039ce2c.png",
+    "static/media/heroBackground.svg": "/static/media/heroBackground.a933005e9038e0de48eeffb68f4fa1e4.svg",
+    "index.html": "/index.html",
+    "main.60cc19d7.css.map": "/static/css/main.60cc19d7.css.map",
+    "main.e00c9502.js.map": "/static/js/main.e00c9502.js.map"
   },
   "entrypoints": [
     "static/css/main.60cc19d7.css",
-    "static/js/main.5dbdb5d3.js"
+    "static/js/main.e00c9502.js"
   ]
 }
