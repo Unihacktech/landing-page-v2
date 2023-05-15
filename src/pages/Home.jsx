@@ -1,7 +1,6 @@
 import React from "react";
 import { Box } from "@mui/system";
 import Hero from "../sections/Hero";
-import backgroundImage from "../images/heroBackground.svg";
 import AboutUsCondenced from "../sections/AboutUsCondenced";
 import Aims from "../sections/Aims";
 import Hackathon from "../sections/Hackathon";

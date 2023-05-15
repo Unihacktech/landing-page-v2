@@ -1,7 +1,6 @@
 import { Box, Divider, Link, Typography } from "@mui/material";
 import React from "react";
 import Header from "../partials/Header";
-import backgroundImage from "../images/heroBackground.svg";
 import abdullah from "../images/abdullah.JPG";
 import { tokens } from "../theme";
 
