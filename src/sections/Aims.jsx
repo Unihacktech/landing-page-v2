@@ -35,14 +35,14 @@ const Aims = () => {
             <AimsCard
               image={connect}
               title="connect"
-              paragraph="with the top techical talent at your university as well as possible employers."
+              paragraph="with the top technical talent at your university as well as potential employers."
             />
           </Grid>
           <Grid item xs="12" md="4">
             <AimsCard
               image={build}
               title="build"
-              paragraph="tailored solutions to the identiied problems and present this to a pannel of qualified professionals."
+              paragraph="tailored solutions to the identified problems and present this to a panel of qualified professionals."
             />
           </Grid>
         </Grid>
