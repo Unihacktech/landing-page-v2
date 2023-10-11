@@ -67,7 +67,7 @@ const Hero = () => {
             color={colors.whiteAccent[200]}
             textAlign="center"
           >
-            W/B November 6th 2023 · Airport Road, Abuja, Nigeria
+            W/B November 6th 2024 · Airport Road, Abuja, Nigeria
           </Typography>
         </Box>
       </Box>
